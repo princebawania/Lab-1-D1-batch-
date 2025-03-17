@@ -1,0 +1,21 @@
+#include <simplecpp>
+main_program{
+    int age ;
+    cout<<"What is age ?";
+    cin>>age;
+    if(age==2||age==3){
+        cout<<"Pre-Reader";
+    }
+    if(age==4||age==5){
+        cout<<"Beginning reader";
+    }
+    if(age==6||age==7){
+        cout<<"Intermediate reader";
+    }
+    if(age>8){
+        cout<<"Advanced reader";
+    }
+    else{
+        cout<<"Invalid";
+    }
+}
