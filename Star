@@ -1,0 +1,14 @@
+#include <simplecpp>
+main_program{
+    turtleSim();
+    int n;
+    cout<<"What is the number of pointed side ?";
+    cin>>n;
+    repeat(n){
+        right((180-(360)/n)/2);forward(50);
+        left((180-(360)/n)/2);forward(50);
+        right(360/n);
+        }
+getClick();
+
+}
