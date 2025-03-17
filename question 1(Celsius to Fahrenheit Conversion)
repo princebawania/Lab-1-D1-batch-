@@ -1,0 +1,8 @@
+#include <simplecpp>
+main_program{
+    float T;
+    cout<<"What is temperature in celcius? ";
+    cin>>T;
+    float T1=(9/5)*T+32;
+    cout<<T1<<endl;
+}
