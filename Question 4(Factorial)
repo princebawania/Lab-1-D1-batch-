@@ -1,0 +1,12 @@
+#include <simplecpp>
+main_program {
+int n ;
+cout<<"What is n? ";
+cin>>n;
+int n_factorial = 1;
+for (int i=1;i<=n; ++i){
+n_factorial *=i;
+}
+  cout<<"The factorial of "<< n << " is " << n_factorial<< endl;
+ 
+}
